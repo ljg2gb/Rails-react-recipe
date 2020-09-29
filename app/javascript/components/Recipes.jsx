@@ -6,7 +6,6 @@ export default class Recipes extends React.Component {
         recipes: []
     };
 
-
     componentDidMount = () => {
         const url = 'api/v1/recipes/index'
         fetch(url)
